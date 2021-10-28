@@ -1,204 +1,263 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Olá, mundo!</title>
-  </head>
-  <body>
-      <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </nav>
-       <!--/NavBar-->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    .tm-social {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+  <title>Rustmaniacs</title>
+</head>
 
-       <!--Carousel-->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://techmatador.com/media/2016/06/HTML_JS_CSS.jpg" alt="Primeiro Slide">
+
+<body>
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Rustmaniacs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Servers</a>
+            <a class="dropdown-item" href="#">News</a>
+            <a class="dropdown-item" href="#">Streamers</a>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.ZwaVSZ8MvDekCbLs1e3wbAHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.c1cIPLuXq7ljoPt2dbyNHwHaEK?w=284&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Terceiro Slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-      </div>
-      <!--/Carousel-->
-
-      <!--Jumbotron-->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
-        </div>
-      </div>
-      <!--/Jumbotron-->
-
-      <!--Cards-->
-      
-      <div class="container">
-        <div class="card-columns">
-            <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-                <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
-              </div>
-            </div>
-            <div class="card p-3">
-              <blockquote class="blockquote mb-0 card-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer">
-                  <small class="text-muted">
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-              </div>
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-              <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                <footer class="blockquote-footer">
-                  <small>
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card text-center">
-              <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img" src=".../100px260/" alt="Imagem do card">
-            </div>
-            <div class="card p-3 text-right">
-              <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer">
-                  <small class="text-muted">
-                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-              </div>
-            </div>
-          </div>
-      
-      <!--/Cards-->
-
-      <!--Texto e Video-->
-
-      <div class="row mt-5 mb-5">
-          <div class="col-md-6">
-              <h3>Texto teste</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit omnis, sunt vel adipisci provident nesciunt eveniet dolorum! Nam in ut, aliquid minus sint voluptas, commodi saepe repudiandae, veniam nostrum tenetur?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione pariatur eveniet, maiores temporibus eos odit mollitia quas beatae rem, laudantium facere. Enim, atque ea deserunt accusantium et quidem. Dignissimos, laboriosam?</p>
-            </div>
-            <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PVAKHdPYJDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            </div>
-      </div>
-
-      <!--/Texto e Video-->
-
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="bg-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
     </div>
+  </nav>
+  <!--/NavBar-->
 
-    <footer>
+  <!--Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/R (1).jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="assets/Foto Rust.jpg"
+          alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="assets/foto rust3.jpg"
+          alt="Terceiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="assets/foto rust 2.jpg"
+          alt="quarto Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Back</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--/Carousel-->
 
-        <div class="container"> 
-            <a href="https://www.facebook.com/rustservers/" target="_blank">
-                <img class="tm-social p-30" src="assets/facebook.png" alt="">
-            </a>
-           <a href="https://www.instagram.com/_rust_community_/" target="_blank">
-             <img class="tm-social p-30" src="assets/instagram.png" alt="">
-            </a>
-         
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Rustmaniacs</h1>
+      <p class="lead">From fan to fan, rust is for many a complicated and boring game to play, but for us lovers of adventure that this game can provide us. we live between love and hate, sometimes it's unfair, but we always come back, we always persist, and we always play!</p>
+    </div>
+  </div>
+  <!--/Jumbotron-->
+
+  <!--Cards-->
+
+  <div class="container">
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="assets/OIP (4).jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Blooprint</h5>
+          <p class="card-text">Blooprint is an American YouTuber and a Twitch streamer known for his gaming-related content. He mainly uploads videos of him playing Rust, a multiplayer-only survival video game. However, in his live streams, he can occasionally be seen playing other games besides Rust.</p>
         </div>
-           <p>
-            todos os direitos reservados: Victor Carreras &copy
-           </p>
+      </div>
+      <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">Blooprint YouTube videos!</h5>
+            <iframe width="300" 
+            height="315" 
+            src="https://www.youtube.com/embed/PVAKHdPYJDI" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <p class="card-text"><small class="text-muted">Recent Video.</small></p>
+
+          </div>
+           </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/OIP.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Welyn</h5>
+          <p class="card-text">Welyn is an avid Rust player, publishing guides and gameplay videos about the game on his YouTube channel since late 2016. Welyn also has a Twitch community that he’s been building since 2018, averaging around 1,500 viewers every time he launches Rust on stream.</p>
           
-       </footer>
+        </div>
+      </div>
+      
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Welyn YouTube videos!</h5>
+          <iframe width="300" 
+          height="315" 
+          src="https://www.youtube.com/embed/Jo39KagOCr4" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+          <p class="card-text"><small class="text-muted">Recent video.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/alone.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">aloneintokyo </h5>
+          <p class="card-text">aloneintokyo is an Australian gaming YouTuber and musical artist. He is known for being one of the most-skilled players in the survival game Rust. He uploads a wide variety of content revolved around Rust. He shows his skills by outsmarting players or doing high quality strategies whilst playing the game.</p>
+          
+        </div>
+      </div>
 
-
-
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">aloneintokyo YouTube videos!</h5>
+          <iframe width="300" 
+          height="315" 
+          src="https://www.youtube.com/embed/chL_DAgUZYs" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+          <p class="card-text"><small class="text-muted">Vídeo mais recente.</small></p>
+          
+        </div>
+      </div>
+      </div>
+    </div>
     
 
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <!--/Cards-->
+
+    <!--Texto e Video-->
+<hr>
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Blooprint tutorial!</h3>
+        <p>step by step on how to play rust, with one of the best rust players on youtube, with the video you will learn how to play rust in an easy and fast way, such as how to collect resources, build a base, and have an exceptional start, middle and end game.</p>
+      </div>
+      <iframe width="550"
+       height="315" 
+       src="https://www.youtube.com/embed/j0SnrlxxwRk" 
+       title="YouTube video player" 
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+       allowfullscreen></iframe>
+    </div>
+
+    <!--/Texto e Video-->
+</div>
+
+
+  
+        
+<!--Rodapé-->
+<hr>
+  <footer>
+
+    <script class="lin" src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="vctorcarreras" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/vctorcarreras?trk=profile-badge">My Linkedin</a></div>
+    
+    <div class="row mb-3">
+      <div class="col-md-12  d-flex justify-content-center">
+        <a href="https://www.facebook.com/rustservers/" target="_blank" class="p-3">
+          <img class="tm-social " src="assets/facebook.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/_rust_community_/" target="_blank" class="p-3">
+          <img class="tm-social " src="assets/instagram.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados: Victor Carreras &copy
+        </p>
+        
+      </div>
+    </div>
+  </footer>
+<!--/Rodapé-->
+
+
+
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #BEC6BE;
+}
+</style>
+</head>
+<body>
+    
+</body>
+</html>  
